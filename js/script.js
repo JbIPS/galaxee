@@ -36,7 +36,7 @@
             // Cache selectors
             var lastId,
                 // All list items
-                menuItems = $(".nav a"),
+                menuItems = $(".nav a, .anchor a"),
                 // Anchors corresponding to menu items
                 // find the name of the elements which are anchors
                 scrollItems = menuItems.map(function(){
